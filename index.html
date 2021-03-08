@@ -8,42 +8,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>2048</h1>
-    <div class="score-div">
-        <div class="score-title">
-            <h2>Score: <span id="score">0</span></h2>
-        </div>
-        
-    </div>
-
-    <!-- creates board layout on screen -->
-    <div class="grid">
-        <div class="grid-row">
-            <div class="grid-item" id="1"><span class="value"></span></div>
-            <div class="grid-item" id="2"><span class="value"></span></div>
-            <div class="grid-item" id="3"><span class="value"></span></div>
-            <div class="grid-item" id="4"><span class="value"></span></div>
-        </div>
-        <div class="grid-row">
-            <div class="grid-item" id="5"><span class="value"></span></div>
-            <div class="grid-item" id="6"><span class="value"></span></div>
-            <div class="grid-item" id="7"><span class="value"></span></div>
-            <div class="grid-item" id="8"><span class="value"></span></div>
-        </div>
-        <div class="grid-row">
-            <div class="grid-item" id="9"><span class="value"></span></div>
-            <div class="grid-item" id="10"><span class="value"></span></div>
-            <div class="grid-item" id="11"><span class="value"></span></div>
-            <div class="grid-item" id="12"><span class="value"></span></div>
-        </div>
-        <div class="grid-row">
-            <div class="grid-item" id="13"><span class="value"></span></div>
-            <div class="grid-item" id="14"><span class="value"></span></div>
-            <div class="grid-item" id="15"><span class="value"></span></div>
-            <div class="grid-item" id="16"><span class="value"></span></div>
-        </div>
-    </div>
-
+    <main class="container">
+        <section class="info">
+            <h1>2048</h1>
+            <div class="score-container">
+                <div class="score-title">Score</div>
+                <span id="score">0</span>
+            </div>
+        </section>
+        <span id="result">Game Instructions</span>
+        <section class="grid" id="grid"></section>
+    </main>
+    <footer>
+        Made with ❤️ by Gurkirat Saini
+    </footer>
     <script src="./assets/script/script.js"></script>
 </body>
 </html>
